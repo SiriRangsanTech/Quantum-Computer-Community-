@@ -1,95 +1,118 @@
-# Quantum
-Physical Quantum Mechanic
-# Nirun OS Quantum Edition
+# Hi, I'm SiriRangsanTech 👋
 
-**A quantum-inspired, bootable operating system with a 3D volumetric desktop — built for education, research, and experimentation on everyday hardware.**
+Building software, exploring deep tech, and turning complex systems into practical tools.  
+I enjoy backend engineering, automation, system design, and emerging fields like quantum computing and AI-driven infrastructure.
 
-Nirun OS is **not** a real quantum computer OS. It is a **classical OS** that simulates quantum-inspired concepts (voxel lattices, topological analogies, error-correcting heuristics, neural acceleration) in a visually intuitive 3D environment.
+[![Follow on GitHub](https://img.shields.io/github/followers/SiriRangsanTech?label=Follow&style=social)](https://github.com/SiriRangsanTech)
+[![Profile Views](https://komarev.com/ghpvc/?username=SiriRangsanTech&color=blue)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/SiriRangsanTech?style=social)](#)
 
-It runs on ordinary x86 PCs (via QEMU or bare metal), Docker, and soon ARM/Raspberry Pi — no cryogenic cooling, no cloud subscription, no expensive QPU required.
+---
 
-## Vision
+## About Me
 
-Make quantum ideas feel accessible and tangible for everyone — students, researchers, developers, and enthusiasts — through a beautiful 3D desktop where "quantum" behaviors (healing, diffusion, raycasting) happen in real time.
+I build systems that solve real problems — from backend APIs and automation pipelines to experimental research projects in quantum computing and OS design. I enjoy working across the stack, optimizing performance, and shipping features that feel clean, reliable, and maintainable.
 
-One man, one mission, one OS to rule them all.
+- 🔭 Currently working on: **Quantum Tutorials Hub**, **automation tools**, and **system-level experiments**
+- 🌱 Learning: distributed systems, observability, and quantum–classical hybrid workflows
+- 👯 Open to collaborate on: developer tools, backend systems, automation, and open-source libraries
+- 💬 Ask me about: backend architecture, CI/CD, Node.js, Python, TypeScript, and system design
+- ⚡ Fun fact: I automate everything before I even start the real work
 
-## Current Status (v1.4.0-docker — February 2026)
+---
 
-- Bootable monolithic kernel (Multiboot, i386)
-- 20 Hz real-time scheduler (PIT-driven)
-- 4×4×4 toroidal voxel lattice (DR9 invariant + E9P 26-neighbor healing)
-- Thermal entropy diffusion model
-- Isometric 3D volumetric window manager (VGA Mode 13h)
-- Neural Raycast engine (LibTorch C++ inference — GPU 0.052 ms / CPU 0.18 ms, 95%+ acc)
-- Grok semantic bridge (mock → real API ready)
-- Full Docker pipeline + GitHub Actions CI/CD (Trivy clean)
-- Documentation suite (specification, architecture diagrams, build guides)
+## Top Skills
 
-## Key Features
+- **Languages** — JavaScript/TypeScript, Python, Go  
+- **Frontend** — React, Next.js, Tailwind CSS  
+- **Backend** — Node.js, Express, FastAPI, gRPC  
+- **Databases** — PostgreSQL, Redis, MongoDB  
+- **DevOps** — Docker, Kubernetes, GitHub Actions, Terraform  
+- **Cloud** — AWS (Lambda, ECS/EKS, RDS)  
+- **Testing** — Jest, Playwright, PyTest  
+- **Emerging Tech** — Qiskit, PennyLane, PyTorch (QML), Quantum simulation
 
-- **Kernel**: Multiboot, GDT/IDT, PIT timer, basic memory manager
-- **DR9 Core**: 4×4×4 toroidal lattice with invariant check ((x+y+z) mod 9 = 0)
-- **E9P Healing**: 26-neighbor majority voting for auto-correction
-- **Thermal Model**: Entropy diffusion simulation (Eq. 14)
-- **3D GUI**: Isometric voxel renderer, window creation/movement/z-order
-- **Neural Raycast**: LibTorch-based inference with CUDA/CPU fallback (80% octree reduction at high confidence)
-- **Quantum Bridge**: Grover decoder simulation + QEC controller (20 Hz closed-loop)
-- **Deployment**: Multi-stage Docker (312 MB), QEMU profiles, GitHub CI/CD
+---
 
-## Quick Start (Recommended: Docker)
+## Featured Projects
 
-```bash
-# Build locally
-docker build -t nirun-os .
+### 🔹 Quantum Tutorials Hub  
+Interactive Jupyter notebooks for learning quantum computing, QML, and Qiskit/PennyLane fundamentals.  
+Global education resource — basics to hybrid algorithms.  
+**Repo:** [https://github.com/SiriRangsanTech/Quantum-Tutorials-Hub](https://github.com/SiriRangsanTech/Quantum-Tutorials-Hub)
 
-# Run interactive shell inside container
-docker run --rm -it nirun-os
+### 🔹 UI-Toolkit  
+Reusable React component library with accessibility-first design and theme support.  
+**Repo:** [https://github.com/SiriRangsanTech/UI-Toolkit](https://github.com/SiriRangsanTech/UI-Toolkit)
 
-# Or boot the ISO in QEMU (after make build_iso)
-qemu-system-i386 -cdrom build/iso/NirunOS-Quantum-v1.4.iso -m 512M -vga std
-```
+### 🔹 automation-scripts  
+CLI tools and GitHub Actions workflows for automating developer tasks and releases.  
+**Repo:** [https://github.com/SiriRangsanTech/automation-scripts](https://github.com/SiriRangsanTech/automation-scripts)
 
-See `docs/build_and_run_guide.md` for full instructions, troubleshooting, and hardware notes.
+---
 
-## Contributing
+## How I Work
 
-We warmly welcome contributors of all skill levels — from documentation, translation, testing, to kernel/GUI development.
+- I ship in small, iterative releases  
+- I write tests for critical paths  
+- I value clean architecture and maintainable code  
+- I document APIs and workflows clearly  
+- I automate repetitive tasks aggressively  
 
-1. Read our [Contributing Guide](./CONTRIBUTING.md)
-2. Browse **good first issues**: https://github.com/SiriRangsanTech/Quantum/labels/good-first-issue
-3. Fork → create branch → commit → pull request
-4. Join the conversation on **Discord** (invite link coming soon)
+---
 
-We follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/).
+## What I Value
 
-## Community & Communication
+- Clear communication and fast feedback loops  
+- Observability: logs, metrics, tracing  
+- Simplicity over premature optimization  
+- Strong developer experience  
 
-- **Discord** — Primary chat & sync (invite link to be added)
-- **GitHub Discussions** — https://github.com/SiriRangsanTech/Quantum/discussions
-- **X / Twitter** — @SiriRangsanTech for updates
-- **Telegram** — Backup announcements (link to be added)
+---
+
+## Community & Open Source
+
+I contribute to and maintain several open-source projects.  
+If you'd like to collaborate, open an issue or send a PR — I read all of them.
+
+---
+
+## GitHub Stats
+
+![SiriRangsanTech's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiriRangsanTech&show_icons=true&theme=default)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiriRangsanTech&layout=compact&theme=default)
+
+---
+
+## Get in Touch
+
+- GitHub: **@SiriRangsanTech**
+- Email: *(add your email here if you want — เช่น sirirangsan@proton.me)*  
+- LinkedIn: *(optional — add link ถ้ามี)*  
+- Website / Portfolio: *(optional)*  
+
+---
+
+## Want to Collaborate?
+
+If you're building something interesting — especially in backend systems, automation, developer tools, or quantum education — feel free to reach out.  
+Open to collaboration, research partnerships, and future opportunities.
+
+---
 
 ## License
 
-Apache-2.0 (see [LICENSE](./LICENSE))
+This README is available under the **CC0 1.0 Universal** license — feel free to use or adapt it.
 
-## Citation (for academic / thesis use)
+---
 
-If you use Nirun OS in research, publications, or a thesis, please cite:
+## Customize Later
 
-```bibtex
-@misc{nirun-os-2026,
-  author       = {Rangsan Petkong (Commander Ω)},
-  title        = {Nirun OS Quantum Edition},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/SiriRangsanTech/Quantum}},
-}
-```
+You can easily update:
+- Email  
+- Social links  
+- More featured projects  
+- Profile badges  
+- Custom banner image (ถ้าอยากเพิ่ม GIF quantum หรือ code-themed ที่ด้านบน)
 
-Thank you for joining the journey.  
-Let's build the future of intuitive, quantum-inspired computing together!
-
-— Commander Ω & the Nirun OS Community 🚀🧠![Uploading 1000306422.jpg…]()
+Everything else is production-ready.
